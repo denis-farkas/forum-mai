@@ -1,0 +1,122 @@
+.login-btn,
+.signup-btn {
+  text-decoration: none;
+  background-color: #fff;
+  color: #2cb1ba;
+  border: 1px solid #2cb1ba;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 30px;
+  width: 115px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container,
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.login-container h1,
+.signup-container h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 275px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fcced3;
+  height: 35px;
+  margin-bottom: 20px;
+  outline: none;
+  width: 100%;
+}
+
+.form-group input[type="text"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="password"]::placeholder {
+  color: #b8b8b8;
+  font-size: 16px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 20px;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+.error-message {
+  color: red;
+  font-size: 9px;
+  margin-top: -15px;
+}
+
+.error {
+  color: red;
+}
+
+.btn-to-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2baeb7;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 45px;
+  margin-top: 32px;
+  width: 275px;
+  color: #fff;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  p.inscrire {
+    margin: 14px auto;
+    color: #2baeb7;
+    font-size: 12px;
+  }
+  
+  p.inscrire a {
+    color: #2baeb7;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .check-label {
+    width: 250px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .check {
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.formulaire > h6 {
+    margin-top: 25px;
+    color: #999;
+    font-size: 12px;
+    text-align: left;
+  }

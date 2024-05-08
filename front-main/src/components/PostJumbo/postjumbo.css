@@ -1,0 +1,18 @@
+.card-jumbo {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.card-jumbo-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-subtitle {
+  font-size: medium;
+  padding-left: 2rem;
+}

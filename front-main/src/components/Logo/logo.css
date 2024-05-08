@@ -1,0 +1,13 @@
+.logo img {
+    width: 4rem;
+    height: auto;
+    padding-left: 0.5rem;
+  }
+  
+  @media (max-width: 540px) {
+    .logo img {
+      width: 4rem;
+      height: auto;
+      padding-left: 0.5rem;
+    }
+  }

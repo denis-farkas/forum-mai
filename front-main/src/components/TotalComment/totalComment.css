@@ -1,0 +1,12 @@
+.badge {
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  position: relative;
+  top: -5px;
+  right: 15px;
+}
+
+.card-footer-comment {
+  margin-left: 1rem;
+}
